@@ -6,6 +6,8 @@ One such recipe is Desert Tiger Staff. If a player dies with this in their inven
 
 Have fun with a Game-Over-less Hardcore playthrough!
 
+GitHub Repository: https://github.com/tieeeeen1994/tModLoader-LimitedResourcesRecipes
+
 Recipes added:
 - Band of Regeneration
 - Shoe Spikes
