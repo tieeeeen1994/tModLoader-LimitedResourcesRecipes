@@ -28,7 +28,14 @@ Recipes added:
 - Water Bolt
 - Valor
 - Wooden Boomerang
-- Enchanted Boomerang
 - Blowpipe
 - Wand of Sparking
 - Spear
+
+Changelogs:
+
+v0.3
+- Removed Enchanted Boomerang as it has a vanilla recipe already.
+
+v0.2
+- Initial release.

@@ -183,13 +183,6 @@ public class NewRecipes : ModSystem
 			  .AddTile(TileID.WorkBenches)
 			  .Register();
 
-		Recipe.Create(ItemID.EnchantedBoomerang)
-			  .AddIngredient(ItemID.FallenStar, 10)
-			  .AddIngredient(ItemID.StoneBlock, 500)
-			  .AddRecipeGroup(GoldBarRecipeGroup, 30)
-			  .AddTile(TileID.Anvils)
-			  .Register();
-
 		Recipe.Create(ItemID.Blowpipe)
 			  .AddIngredient(ItemID.BambooBlock, 320)
 			  .AddIngredient(ItemID.Rope, 480)

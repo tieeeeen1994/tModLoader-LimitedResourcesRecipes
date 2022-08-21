@@ -9,6 +9,7 @@ One such recipe is Desert Tiger Staff. If a player dies with this in their inven
 Have fun with a Game-Over-less Hardcore playthrough!
 
 # Recipes added
+
 - Band of Regeneration
 - Shoe Spikes
 - Magic Mirror
@@ -28,7 +29,14 @@ Have fun with a Game-Over-less Hardcore playthrough!
 - Water Bolt
 - Valor
 - Wooden Boomerang
-- Enchanted Boomerang
 - Blowpipe
 - Wand of Sparking
 - Spear
+
+# Changelogs
+
+v0.3
+- Removed Enchanted Boomerang as it has a vanilla recipe already.
+
+v0.2
+- Initial release.
