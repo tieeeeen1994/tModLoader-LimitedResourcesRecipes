@@ -32,8 +32,14 @@ Have fun with a Game-Over-less Hardcore playthrough!
 - Blowpipe
 - Wand of Sparking
 - Spear
+- Mana Regeneration Band
 
 # Changelogs
+
+v0.4
+- Add Mana Regenration Band.
+- Rebalance recipes so that users will have the incentive to find them the vanilla way.
+- Recipes generally have more costs now.
 
 v0.3
 - Removed Enchanted Boomerang as it has a vanilla recipe already.
