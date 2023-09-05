@@ -36,6 +36,10 @@ Have fun with a Game-Over-less Hardcore playthrough!
 
 # Changelogs
 
+v0.6
+- Updated the mod to work with the new tModLoader version.
+- No changes in the mod.
+
 v0.4
 - Add Mana Regenration Band.
 - Rebalance recipes so that users will have the incentive to find them the vanilla way.
