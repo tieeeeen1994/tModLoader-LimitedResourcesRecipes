@@ -45,6 +45,13 @@ public class NewRecipes : ModSystem
 
 	public override void AddRecipes()
 	{
+		Recipe.Create(ItemID.Mace)
+		      .AddIngredient(ItemID.Wood, 400)
+			  .AddIngredient(ItemID.StoneBlock, 800)
+			  .AddRecipeGroup(CopperBarRecipeGroup, 50)
+			  .AddTile(TileID.Anvils)
+			  .Register();
+
 		Recipe.Create(ItemID.BandofRegeneration)
 			  .AddIngredient(ItemID.SoulofLight, 300)
 			  .AddRecipeGroup(CopperBarRecipeGroup, 200)
@@ -55,14 +62,6 @@ public class NewRecipes : ModSystem
 			  .AddIngredient(ItemID.Ectoplasm, 120)
 			  .AddRecipeGroup(RecipeGroupID.IronBar, 180)
 			  .AddTile(TileID.MythrilAnvil)
-			  .Register();
-
-		Recipe.Create(ItemID.MagicMirror)
-			  .AddIngredient(ItemID.ManaCrystal, 15)
-			  .AddIngredient(ItemID.SoulofNight, 120)
-			  .AddIngredient(ItemID.SoulofLight, 120)
-			  .AddRecipeGroup(SilverBarRecipeGroup, 150)
-			  .AddTile(TileID.WorkBenches)
 			  .Register();
 
 		Recipe.Create(ItemID.IceMirror)
@@ -78,13 +77,6 @@ public class NewRecipes : ModSystem
 			  .AddIngredient(ItemID.Bottle)
 			  .AddRecipeGroup(EvilBarRecipeGroup, 400)
 			  .AddIngredient(ItemID.Gel, 500)
-			  .AddTile(TileID.WorkBenches)
-			  .Register();
-
-		Recipe.Create(ItemID.SandstorminaBottle)
-			  .AddRecipeGroup(RecipeGroupID.Sand, 320)
-			  .AddIngredient(ItemID.Bottle)
-			  .AddIngredient(ItemID.HellstoneBar, 280)
 			  .AddTile(TileID.WorkBenches)
 			  .Register();
 
@@ -109,54 +101,6 @@ public class NewRecipes : ModSystem
 			  .AddTile(TileID.Hellforge)
 			  .Register();
 
-		Recipe.Create(ItemID.StormTigerStaff)
-			  .AddIngredient(ItemID.DungeonDesertKey, 3)
-			  .AddIngredient(ItemID.SoulofFright, 180)
-			  .AddIngredient(ItemID.AntlionMandible, 25)
-			  .AddRecipeGroup(GoldBarRecipeGroup, 210)
-			  .AddTile(TileID.DemonAltar)
-			  .Register();
-
-		Recipe.Create(ItemID.StaffoftheFrostHydra)
-			  .AddIngredient(ItemID.FrozenKey, 3)
-			  .AddIngredient(ItemID.SoulofMight, 180)
-			  .AddIngredient(ItemID.IceBlock, 1200)
-			  .AddIngredient(ItemID.FlinxFur, 15)
-			  .AddTile(TileID.DemonAltar)
-			  .Register();
-
-		Recipe.Create(ItemID.RainbowGun)
-			  .AddIngredient(ItemID.HallowedKey, 3)
-			  .AddIngredient(ItemID.RainbowBrick, 270)
-			  .AddIngredient(ItemID.PixieDust, 150)
-			  .AddRecipeGroup(GoldBarRecipeGroup, 210)
-			  .AddTile(TileID.MythrilAnvil)
-			  .Register();
-
-		Recipe.Create(ItemID.PiranhaGun)
-			  .AddIngredient(ItemID.JungleKey, 3)
-			  .AddIngredient(ItemID.SoulofSight, 180)
-			  .AddIngredient(ItemID.Bass, 30)
-			  .AddRecipeGroup(RecipeGroupID.IronBar, 330)
-			  .AddTile(TileID.MythrilAnvil)
-			  .Register();
-
-		Recipe.Create(ItemID.ScourgeoftheCorruptor)
-			  .AddIngredient(ItemID.CorruptionKey, 3)
-			  .AddIngredient(ItemID.EbonstoneBlock, 1000)
-			  .AddIngredient(ItemID.ShadowScale, 240)
-			  .AddIngredient(ItemID.HallowedBar, 120)
-			  .AddTile(TileID.DemonAltar)
-			  .Register();
-
-		Recipe.Create(ItemID.VampireKnives)
-			  .AddIngredient(ItemID.CrimsonKey, 3)
-			  .AddIngredient(ItemID.CrimstoneBlock, 1000)
-			  .AddIngredient(ItemID.TissueSample, 240)
-			  .AddIngredient(ItemID.HallowedBar, 120)
-			  .AddTile(TileID.MythrilAnvil)
-			  .Register();
-
 		Recipe.Create(ItemID.Terragrim)
 			  .AddIngredient(ItemID.EnchantedSword, 10)
 			  .AddTile(TileID.Anvils)
@@ -170,46 +114,11 @@ public class NewRecipes : ModSystem
 			  .AddTile(TileID.Bookcases)
 			  .Register();
 
-		Recipe.Create(ItemID.Valor)
-			  .AddIngredient(ItemID.Bone, 300)
-			  .AddIngredient(ItemID.WoodYoyo)
-			  .AddIngredient(ItemID.GoldenKey, 3)
-			  .AddTile(TileID.Anvils)
-			  .Register();
-
-		Recipe.Create(ItemID.WoodenBoomerang)
-			  .AddRecipeGroup(RecipeGroupID.Wood, 800)
-			  .AddIngredient(ItemID.StoneBlock, 400)
-			  .AddRecipeGroup(SilverBarRecipeGroup, 40)
-			  .AddTile(TileID.WorkBenches)
-			  .Register();
-
 		Recipe.Create(ItemID.Blowpipe)
 			  .AddIngredient(ItemID.BambooBlock, 320)
 			  .AddIngredient(ItemID.Rope, 480)
 			  .AddRecipeGroup(RecipeGroupID.IronBar, 40)
 			  .AddTile(TileID.WorkBenches)
-			  .Register();
-
-		Recipe.Create(ItemID.WandofSparking)
-			  .AddIngredient(ItemID.ManaCrystal, 10)
-			  .AddIngredient(ItemID.Torch, 210)
-			  .AddRecipeGroup(RecipeGroupID.Wood, 750)
-			  .AddTile(TileID.WorkBenches)
-			  .Register();
-
-		Recipe.Create(ItemID.Spear)
-			  .AddIngredient(ItemID.StoneBlock, 400)
-			  .AddRecipeGroup(CopperBarRecipeGroup, 50)
-			  .AddRecipeGroup(RecipeGroupID.Wood, 700)
-			  .AddTile(TileID.Anvils)
-			  .Register();
-
-		Recipe.Create(ItemID.ManaRegenerationBand)
-			  .AddIngredient(ItemID.BandofStarpower)
-			  .AddRecipeGroup(CopperBarRecipeGroup, 200)
-              .AddRecipeGroup(RecipeGroupID.IronBar, 150)
-              .AddTile(TileID.Anvils)
 			  .Register();
     }
 }
