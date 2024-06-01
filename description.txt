@@ -20,8 +20,17 @@ Recipes added:
 - Terragrim
 - Water Bolt
 - Blowpipe
+- Staff of the Frost Hydra
+- Desert Tiger Staff
+- Piranha Gun
+- Rainbow Gun
+- Scourge of the Corruptor
+- Vampire Knives
 
 Changelogs:
+
+v0.8
+- Add Bime Chest weapons again as they were mistakenly removed in the previous version.
 
 v0.7
 - Remove Sandstorm in a Bottle since it's now a renewable resource.

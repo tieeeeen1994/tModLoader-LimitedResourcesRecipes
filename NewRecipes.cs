@@ -120,5 +120,53 @@ public class NewRecipes : ModSystem
 			  .AddRecipeGroup(RecipeGroupID.IronBar, 40)
 			  .AddTile(TileID.WorkBenches)
 			  .Register();
+
+        Recipe.Create(ItemID.StormTigerStaff)
+              .AddIngredient(ItemID.DungeonDesertKey, 3)
+              .AddIngredient(ItemID.SoulofFright, 180)
+              .AddIngredient(ItemID.AntlionMandible, 25)
+              .AddRecipeGroup(GoldBarRecipeGroup, 150)
+              .AddTile(TileID.DemonAltar)
+              .Register();
+
+        Recipe.Create(ItemID.StaffoftheFrostHydra)
+              .AddIngredient(ItemID.FrozenKey, 3)
+              .AddIngredient(ItemID.SoulofMight, 180)
+              .AddIngredient(ItemID.IceBlock, 1200)
+              .AddIngredient(ItemID.FlinxFur, 15)
+              .AddTile(TileID.DemonAltar)
+              .Register();
+
+        Recipe.Create(ItemID.RainbowGun)
+              .AddIngredient(ItemID.HallowedKey, 3)
+              .AddIngredient(ItemID.RainbowBrick, 300)
+              .AddIngredient(ItemID.PixieDust, 150)
+              .AddRecipeGroup(GoldBarRecipeGroup, 150)
+              .AddTile(TileID.MythrilAnvil)
+              .Register();
+
+        Recipe.Create(ItemID.PiranhaGun)
+              .AddIngredient(ItemID.JungleKey, 3)
+              .AddIngredient(ItemID.SoulofSight, 180)
+              .AddIngredient(ItemID.Bass, 30)
+              .AddRecipeGroup(RecipeGroupID.IronBar, 300)
+              .AddTile(TileID.MythrilAnvil)
+              .Register();
+
+        Recipe.Create(ItemID.ScourgeoftheCorruptor)
+              .AddIngredient(ItemID.CorruptionKey, 3)
+              .AddIngredient(ItemID.EbonstoneBlock, 1000)
+              .AddIngredient(ItemID.ShadowScale, 200)
+              .AddIngredient(ItemID.HallowedBar, 100)
+              .AddTile(TileID.DemonAltar)
+              .Register();
+
+        Recipe.Create(ItemID.VampireKnives)
+              .AddIngredient(ItemID.CrimsonKey, 3)
+              .AddIngredient(ItemID.CrimstoneBlock, 1000)
+              .AddIngredient(ItemID.TissueSample, 200)
+              .AddIngredient(ItemID.HallowedBar, 100)
+              .AddTile(TileID.MythrilAnvil)
+              .Register();
     }
 }

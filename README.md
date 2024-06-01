@@ -21,6 +21,12 @@ Have fun with a Game-Over-less Hardcore playthrough!
 - Terragrim
 - Water Bolt
 - Blowpipe
+- Staff of the Frost Hydra
+- Desert Tiger Staff
+- Piranha Gun
+- Rainbow Gun
+- Scourge of the Corruptor
+- Vampire Knives
 
 # Changelogs
 
